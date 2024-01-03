@@ -3,7 +3,7 @@
 <html lang="cn">
 <head>
     <meta charset="utf-8" />
-    <title>Archives | NepgearのBlog</title>
+    <title>categories | NepgearのBlog</title>
     <meta name="author" content="Nepgear" />
     <meta name="description" content="" />
     <meta name="keywords" content="" />
@@ -38,8 +38,6 @@
 <script src="/js/lib/preview.js"></script>
 
 
-
-<script src="/js/lib/search.js"></script>
 
 
 
@@ -151,41 +149,13 @@
 </transition>
 
         <div id="main" :class="loading ? 'into-enter-from': 'into-enter-active'">
-            
-<div id="archives">
+            <div id="archives">
     
-    <input id="search-bar" class="input" placeholder="搜索" v-model="rawSearch" />
-    
-    <div id="timeline-wrap" ref="timeline">
+    <div class="categories-tags">
         
-        <div class="timeline" data-title="测试">
-            <div class="timeline-tail"></div>
-            <div class="timeline-content">
-                <div class="item-time">2024/1/3</div>
-                <a href="/2024/01/03/%E6%B5%8B%E8%AF%95/">
-                    <h3>测试</h3>
-                </a>
-                <div class="info">
-                    
-                    
-                    <span class="tags">
-                        <span class="icon">
-                            <i class="fa-solid fa-tags fa-fw"></i>
-                        </span>
-                        
-                        
-                        <span class="tag">
-                            
-                            <a href="/tags/C/" style="color: #00bcd4">C#</a>
-                        </span>
-                        
-                    </span>
-                    
-                </div>
-            </div>
-        </div>
         
     </div>
+    
 </div>
 
             <footer id="footer">
